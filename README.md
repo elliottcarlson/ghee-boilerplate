@@ -1,5 +1,7 @@
 # ghee boilerplate
 
+[![npm version](https://badge.fury.io/js/ghee-boilerplate.svg)](https://badge.fury.io/js/ghee-boilerplate)
+
 This is a boilerplate setup for a ghee Slack bot.
 
 For more information on how to use [ghee](https://github.com/elliottcarlson/ghee),
@@ -7,7 +9,11 @@ please visit the _ghee_ [wiki](https://github.com/elliottcarlson/ghee/wiki).
 
 ### Setup
 
-Clone this repo.
+Clone this repo or install via npm:
+
+```sh
+$ npm instal ghee-boilerplate
+```
 
 Go to your [Custom Integrations](https://www.slack.com/apps/manage/custom-integrations)
 page for your Slack instance and set up a new Bot integration. Copy the API

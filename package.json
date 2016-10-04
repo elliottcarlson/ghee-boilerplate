@@ -1,6 +1,6 @@
 {
   "name": "ghee-boilerplate",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A boilerplate to build your Slack Bot using ghee",
   "main": "lib/bot.js",
   "scripts": {

@@ -1,6 +1,6 @@
 {
   "name": "ghee-boilerplate",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A boilerplate to build your Slack Bot using ghee",
   "main": "lib/bot.js",
   "scripts": {
@@ -26,21 +26,20 @@
   "dependencies": {
     "babel-cli": "^6.14.0",
     "babel-plugin-transform-decorators-legacy": "^1.3.4",
-    "babel-preset-es2015": "^6.14.0",
-    "babel-preset-es2017": "^6.14.0",
+    "babel-preset-env": "^1.6.1",
     "dotenv": "^2.0.0",
-    "ghee": "^0.1.0"
+    "ghee": "^1.0.2"
   },
   "babel": {
     "presets": [
-      "es2015",
-      "es2017"
+      "env",
+      "env"
     ],
     "plugins": [
       "transform-decorators-legacy"
     ]
   },
   "devDependencies": {
-    "ghee": "^0.1.0"
+    "ghee": "^1.0.2"
   }
 }

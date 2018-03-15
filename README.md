@@ -9,10 +9,10 @@ please visit the _ghee_ [wiki](https://github.com/elliottcarlson/ghee/wiki).
 
 ### Setup
 
-Clone this repo or install via npm:
+Clone this repo or install via yarn/npm:
 
 ```sh
-$ npm instal ghee-boilerplate
+$ npm install ghee-boilerplate
 ```
 
 Go to your [Custom Integrations](https://www.slack.com/apps/manage/custom-integrations)
@@ -30,10 +30,10 @@ on your apps Settings page.
 
 ### Run
 
-Run `npm install` if you have just cloned the repo for the first time, to
+Run `yarn install` if you have just cloned the repo for the first time, to
 install the required dependencies.
 
-Run `npm start` to start the bot.
+Run `yarn start` to start the bot.
 
 ### Usage
 
